@@ -34,7 +34,7 @@ function App() {
   };
 
   return (
-    <div className="header field">
+    <div className="header field flex flex-col justify-center min-h-screen min-w-full font-bold text-9xl">
       VAT CALCULATOR
       <div className="colour-border">
         <VatRateField
